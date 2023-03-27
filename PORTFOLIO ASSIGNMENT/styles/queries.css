@@ -1,0 +1,35 @@
+
+/* for screen size of 1350px */
+@media (max-width: 84em){
+    .hero{
+        max-width: 120rem;
+    }
+
+    .heading-primary{
+        font-size: 4.4rem;
+    }
+}
+
+/* for screen size of 1200px */
+@media (max-width: 75rem){
+    /* using 9px... 9px/16px * 100 */
+    html{
+        font-size: 52.65%;
+    }
+
+    .grid{
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    .header{
+        padding: 0 3.2rem;
+    }
+    .heading-secondary{
+        font-size: 3.2rem;
+    }
+
+    .heading-tertiary{
+        font-size: 2.4rem;
+    }
+}
